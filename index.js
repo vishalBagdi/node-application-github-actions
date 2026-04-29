@@ -3,10 +3,10 @@ const app = express()
 const PORT = process.env.PORT ?? 8080
 
 app.get('/', (req, res) =>{
-    return res.json({msg: 'hello from the server'})
+    return res.json({msg: 'hello from the server open the port v1'})
 
 })
 
 app.listen(PORT, () =>{
-    console.log('Server is up and running on PORT vi')
+    console.log('Server is up and running on PORT')
 })
